@@ -22,7 +22,7 @@ $gamesMapTableCfg = array(
         'name'        => array('type' => 'varchar(50)',  'null' => false, 'default' => '\'\''),
         'image'       => array('type' => 'varchar(255)', 'null' => false, 'default' => '\'\''),
         'game'        => array('type' => 'int(11)',      'null' => false, 'unsigned' => true, 'default' => '\'0\''),
-        'description' => array('type' => 'text',         'null' => false)
+        'description' => array('type' => 'text',         'null' => true)
     ),
     'primaryKey' => array('id'),
     'engine' => 'MyISAM'
